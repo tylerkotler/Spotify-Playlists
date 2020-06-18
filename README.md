@@ -20,13 +20,13 @@ Welcome! This repo allows you to do 2 things:
 
 2. Get your client ID, client secret, and redirect URI
 
-a) Go to developer.spotify.com and login to your dashboard using your Spotify account
+ - Go to developer.spotify.com and login to your dashboard using your Spotify account
 
-b) Click "Create an App", give it a name and a description, and agree to the terms
+ - Click "Create an App", give it a name and a description, and agree to the terms
 
-c) Once you've created the app, it should show you client ID and you can click "Show Client Secret" to get the secret. Copy and paste both of those into their spots in the authenticate.py file
+ - Once you've created the app, it should show you client ID and you can click "Show Client Secret" to get the secret. Copy and paste both of those into their spots in the authenticate.py file
 
-d) Click "Edit Settings" for your app and add a redirect uri. It can be any website, but I recommend just using: http://localhost:8080 - then add this redirect uri to the authenticate.py file (it's preset to http://localhost:8080, so change it if you are using something else)
+ - Click "Edit Settings" for your app and add a redirect uri. It can be any website, but I recommend just using: http://localhost:8080 - then add this redirect uri to the authenticate.py file (it's preset to http://localhost:8080, so change it if you are using something else)
 
 3. Get your Spotify ID
 
