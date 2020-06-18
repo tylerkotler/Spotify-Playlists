@@ -3,7 +3,7 @@ Welcome! This repo allows you to do 2 things:
 1. Automatically generate a new Spotify playlist of Billboard's top 50 EDM songs
 2. Automatically generate a new Spotify playlist of your top songs from the past 4 weeks/month
 
-**Steps to get started
+# Steps to get started
 
 1. Download Python if you don't already have it. Go to https://www.python.org/downloads/
 
@@ -14,7 +14,7 @@ Welcome! This repo allows you to do 2 things:
 
 4. Get all Spotify information and edit the authenticate.py file to fill in all your information - follow steps below:
 
-**Getting Spotify information
+# Getting Spotify information
 
 1. Get your username that you used for your Spotify account and add it to the authenticate.py file
 
@@ -31,7 +31,7 @@ c) Paste the spotify uri in for spotify_id in authenticate.py. Then, from the ur
 
 4. If you want to create the playlist with your top songs from the previous month, the numTopSongs variable is preset to 20. Change that number if you want to generate a playlist with a different number of your top songs.
 
-**Running the scripts
+# Running the scripts
 
 To get the top 50 EDM songs:
 1. Open Terminal, enter: cd Spotify-Playlists
