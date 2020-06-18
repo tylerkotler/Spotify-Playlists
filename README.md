@@ -1,6 +1,8 @@
 # Spotify-Playlists
 Welcome! This repo allows you to do 2 things:
+
 1. Automatically generate a new Spotify playlist of Billboard's top 50 EDM songs
+
 2. Automatically generate a new Spotify playlist of your top songs from the past 4 weeks/month
 
 # Steps to get started
@@ -30,11 +32,11 @@ Welcome! This repo allows you to do 2 things:
 
 3. Get your Spotify ID
 
-a) Open the spotify app on your computer and click your name in the top right
+ - Open the spotify app on your computer and click your name in the top right
 
-b) Click on the 3 dots below your profile photo -> share -> copy spotify uri
+ - Click on the 3 dots below your profile photo -> share -> copy spotify uri
 
-c) Paste the spotify uri in for spotify_id in authenticate.py. Then, from the uri you pasted in, delete: spotify:user: (leaving only the number)
+ - Paste the spotify uri in for spotify_id in authenticate.py. Then, from the uri you pasted in, delete: spotify:user: (leaving only the number)
 
 4. If you want to create the playlist with your top songs from the previous month, the numTopSongs variable is preset to 20. Change that number if you want to generate a playlist with a different number of your top songs.
 
