@@ -44,12 +44,12 @@
 
 **To get the top 50 EDM songs:**
 
-**1.** Open Terminal, enter: cd Spotify-Playlists
+**1.** Open Terminal, enter: `cd Spotify-Playlists`
 
-**2.** In Terminal, enter: python createEDMPlaylist.py
+**2.** In Terminal, enter: `python3 createEDMPlaylist.py`
 
 **To get your top songs from the previous month:**
 
 **1.** Open Terminal, enter `cd Spotify-Playlists`
 
-**2.** In Terminal, enter: `python createTopsPlaylist.py`
+**2.** In Terminal, enter: `python3 createTopsPlaylist.py`
