@@ -6,5 +6,6 @@ Welcome! This repo allows you to do 2 things:
 Steps to get started:
 1. Download Python if you don't already have it. Go to https://www.python.org/downloads/
 2. Clone this repository - open Terminal and type: 
-  git clone https://github.com/tylerkotler/Spotify-Playlists.git
+
+git clone https://github.com/tylerkotler/Spotify-Playlists.git
 3. Yeah
