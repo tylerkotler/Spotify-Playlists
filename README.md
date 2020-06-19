@@ -11,10 +11,12 @@
 
 **2.** Clone this repository - open Terminal and enter: 
     `git clone --bare https://github.com/tylerkotler/Spotify-Playlists.git` 
-    
-**3.** Install requirements - in Terminal, enter: `pip3 install -r requirements.txt`
 
-**4.** Get all Spotify information and edit the authenticate.py file to fill in all your information - follow steps below:
+**3.** In terminal, enter: `cd Spotify-Playlists`
+    
+**4.** Install requirements - in Terminal, enter: `pip3 install -r requirements.txt`
+
+**5.** Get all Spotify information and edit the authenticate.py file to fill in all your information - follow steps below:
 
 # Getting Spotify information
 
