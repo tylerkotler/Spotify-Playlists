@@ -10,14 +10,14 @@
 **1.** Download Python if you don't already have it. Go to https://www.python.org/downloads/
 
 **2.** Clone this repository - open Terminal and enter: 
-    `git clone --bare https://github.com/tylerkotler/Spotify-Playlists.git` 
+    `git clone --bare https://github.com/tylerkotler/Spotify-Playlists.git`
     
-    a) If you get the error: xcrun: invalid active developer path, enter in Terminal:
+   a) If you get the error: xcrun: invalid active developer path, enter in Terminal:
     `xcode-select --install`
     Then try again
-
-**3.** In terminal, enter: `cd Spotify-Playlists`
     
+**3.** In terminal, enter: `cd Spotify-Playlists`
+
 **4.** Install requirements - in Terminal, enter: `pip3 install -r requirements.txt`
 
 **5.** Get all Spotify information and edit the authenticate.py file to fill in all your information - follow steps below:
