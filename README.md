@@ -11,6 +11,10 @@
 
 **2.** Clone this repository - open Terminal and enter: 
     `git clone --bare https://github.com/tylerkotler/Spotify-Playlists.git` 
+    
+    a) If you get the error: xcrun: invalid active developer path, enter in Terminal:
+    `xcode-select --install`
+    Then try again
 
 **3.** In terminal, enter: `cd Spotify-Playlists`
     
