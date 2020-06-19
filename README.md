@@ -41,7 +41,7 @@
 
  - Click on the 3 dots below your profile photo -> share -> copy spotify uri
 
- - Paste the spotify uri in for spotify_id in authenticate.py. Then, from the uri you pasted in, delete: spotify:user: (leaving only the number)
+ - Paste the spotify uri in for spotify_id in authenticate.py. Then, from the uri you pasted in, delete: spotify:user: (leaving only the letters and/or numbers after)
 
 **4.** If you want to create the playlist with your top songs from the previous month, the numTopSongs variable is preset to 20. Change that number if you want to generate a playlist with a different number of your top songs.
 
