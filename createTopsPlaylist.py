@@ -6,6 +6,7 @@ import json
 import re
 from datetime import date
 import operator
+import pandas as pd
 
 
 #Gets a token for the user based on the scope
@@ -36,7 +37,8 @@ def get_top_monthly_songs(numTopSongs):
 #Creates a new playlist titled Top Songs {month} {year}
 def create_playlist(numSongs, token):
     today = date.today()
-    monthYear = today.strftime("%B %Y")
+    lastMonth = pd.to_datetime(today) - pd.DateOffset(months=1)
+    monthYear = lastMonth.strftime("%B %Y")
     request_body = json.dumps({
         "name": "Top Songs {}".format(monthYear),
         "description": "Top {} songs I listened to last month".format(numSongs)

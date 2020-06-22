@@ -6,6 +6,7 @@ import requests
 import json
 import re
 from datetime import date
+import pandas as pd
 
 
 song_IDs = []
@@ -80,7 +81,8 @@ def find_song(name, artistList):
 #Creates a new playlist titled EDM {month} {year}
 def create_playlist():
     today = date.today()
-    monthYear = today.strftime("%B %Y")
+    lastMonth = pd.to_datetime(today) - pd.DateOffset(months=1)
+    monthYear = lastMonth.strftime("%B %Y")
     request_body = json.dumps({
         "name": "EDM {}".format(monthYear),
         "description": "Top 50 EDM Songs - scraped from Billboard's website"
